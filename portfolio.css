@@ -13,11 +13,12 @@ header {
   text-align: center;
 }
 
-nav a {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
+
 
 section {
   padding: 2rem;
