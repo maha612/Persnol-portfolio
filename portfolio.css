@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background:purple;
+  background:skyblue;
   color: white;
   padding: 2px;
   text-align: center;
@@ -26,7 +26,7 @@ section {
 }
 
 .project {
-  background:lightgray;
+  
   padding: 1px;
   margin-bottom: 1px;
   border-radius: 8px;
