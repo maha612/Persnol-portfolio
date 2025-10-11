@@ -1,2 +1,2 @@
 # Persnol-portfolio
-this is my persnol portfolio.
+This is my persnol portfolio.
