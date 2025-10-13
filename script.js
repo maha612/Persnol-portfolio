@@ -1,4 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
-  alert("Thanks for reaching out! I'll get back to you soon.");
+  alert('Thank you for reaching out, I will get back to you soon!');
 });
