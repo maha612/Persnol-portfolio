@@ -1,144 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mahalakshmi K — Full-Stack & Frontend Developer</title>
-
-  <!-- CSS LINK -->
-  <link rel="portfolio" href="portfolio.css">
-
-  <!-- Resume File -->
-  <link rel="preload" href="C:\Users\Admin\Downloads\mahalakshmik_fullstack.pdf.docx" as="document">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahalakshmi - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
 </head>
 <body>
-
-  <!-- HEADER -->
-  <header class="header">
-    <div class="logo">
-      <div class="avatar">MK</div>
-      <div>
-        <h2 class="name">Mahalakshmi K</h2>
-        <p class="tagline">Full-Stack Python & Frontend Developer</p>
-      </div>
-    </div>
-    <nav class="nav">
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+  <header>
+    <h1>Mahalakshmi</h1>
+    <p>B.Sc. Physics Graduate | Fullstack Developer | 5G Enthusiast</p>
+    <nav>
       <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <h1>Hello, I'm <span class="accent">Mahalakshmi</span></h1>
-    <p class="subtitle">
-      A passionate Full-Stack & Frontend Developer skilled in Django, Python, JavaScript,
-      HTML, CSS, and modern web technologies.
-    </p>
-
-    <div class="hero-btns">
-      <a href="#projects" class="btn">View Projects</a>
-      <a href="C:\Users\Admin\Downloads\mahalakshmik_fullstack.pdf.docx" download class="btn-outline">Download Resume</a>
-    </div>
-  </section>
-
-  <!-- ABOUT SECTION -->
-  <section id="about" class="section">
-    <h2 class="section-title">About Me</h2>
-    <p class="section-text">
-      I build responsive, functional, and visually appealing web applications using Python, Django,
-      JavaScript, HTML, CSS, and React basics. I also have knowledge in networking, 5G fundamentals,
-      and problem-solving from my Physics background.
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate fullstack developer with a background in Physics and a strong interest in cutting-edge technologies like 5G. I love creating clean, responsive web experiences and building scalable applications that bridge the gap between users and technology.
     </p>
   </section>
 
-  <!-- SKILLS SECTION -->
-  <section id="skills" class="section">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-box">
-      <span class="skill">HTML</span>
-      <span class="skill">CSS</span>
-      <span class="skill">JavaScript</span>
-      <span class="skill">Bootstrap</span>
-      <span class="skill">React (Basics)</span>
-      <span class="skill">Python</span>
-      <span class="skill">Django</span>
-      <span class="skill">MySQL</span>
-      <span class="skill">REST APIs</span>
-      <span class="skill">Git & GitHub</span>
-      <span class="skill">MATLAB</span>
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>🌐 Personal Portfolio Website</h3>
+      <p>
+        A sleek and responsive portfolio built using HTML, CSS, and JavaScript to showcase my work, skills, and professional background. This project highlights my frontend design ability and understanding of clean, user-friendly interfaces.
+      </p>
     </div>
+
+    <div class="project">
+      <h3>📶 Network Slicing Manager (5G)</h3>
+      <p>
+        A dynamic web-based application designed to simulate and manage 5G network slices using a Django backend and interactive frontend. It allows administrators to create, monitor, and allocate network resources efficiently—showcasing my fullstack skills and enthusiasm for next-gen network technology.
+      </p>
+    </div>
+   
+  <div class="project">
+    <h3>🚁 Women Drone Security - Nan Mudhalvan Scheme Finalist</h3>
+    <p>
+      Presented an innovative drone-based security system focused on women's safety, developed under the prestigious Nan Mudhalvan scheme. This project uses cutting-edge drone technology combined with real-time monitoring to enhance security and rapid response. Proud to be recognized as a finalist, highlighting my commitment to social impact through technology.
+    </p>
+  </div>
+
   </section>
 
-  <!-- PROJECTS SECTION -->
-  <section id="projects" class="section">
-    <h2 class="section-title">Projects</h2>
-
-    <div class="project-grid">
-
-      <!-- Project 1 -->
-      <div class="project-card">
-        <div class="project-thumb">Network Slice Manager</div>
-        <h3 class="project-title">Full-Stack Slice Manager App</h3>
-        <p class="project-desc">React frontend + Node/Express backend simulating slice allocation.</p>
-        <div class="project-actions">
-          <a href="#" class="project-btn">Live Demo</a>
-          <a href="#" class="project-btn">View Code</a>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-card">
-        <div class="project-thumb">Portfolio Website</div>
-        <h3 class="project-title">Personal Portfolio Site</h3>
-        <p class="project-desc">Responsive portfolio built with HTML, CSS & JavaScript.</p>
-        <div class="project-actions">
-          <a href="https://maha612.github.io/Persnol-portfolio/" class="project-btn">Live</a>
-          <a href="https://github.com/maha612/Persnol-portfolio" class="project-btn">Code</a>
-        </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="project-card">
-        <div class="project-thumb">React Mini Apps</div>
-        <h3 class="project-title">React UI Projects</h3>
-        <p class="project-desc">Small React apps demonstrating components & state.</p>
-        <div class="project-actions">
-          <a href="#" class="project-btn">Demo</a>
-          <a href="https://github.com/maha612" class="project-btn">Code</a>
-        </div>
-      </div>
-
-    </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="section">
-    <h2 class="section-title">Contact</h2>
-    <p class="section-text">Feel free to reach out for opportunities.</p>
-
-    <div class="contact-box">
-      <p><strong>Email:</strong> <span id="email">smsk2672@gmail.com</span></p>
-      <button id="copyEmail" class="btn-outline">Copy Email</button>
-
-      <p><strong>Location:</strong> Bangalore | Chennai | Coimbatore | Tamil Nadu</p>
-
-      <div class="contact-links">
-        <a href="https://github.com/maha612" class="contact-btn">GitHub</a>
-        <a href="https://www.linkedin.com/in/mahalakshmi-k-154524296" class="contact-btn">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    © <span id="year"></span> Mahalakshmi K — Full-Stack & Frontend Developer
+  <footer>
+    <p>&copy; 2025 Mahalakshmi. All rights reserved.</p>
   </footer>
 
-  <!-- JS FILE -->
   <script src="script.js"></script>
-
 </body>
 </html>
